@@ -1,0 +1,78 @@
+@CHARSET "UTF-8";
+
+
+body	{
+    background-image:url("bg1.png");
+    background-repeat:repeat;
+	background-color: #FFF8DC;
+	margin-left:50px;
+	margin-right:50px;
+	
+}
+
+#grid1		{
+	background-image:url("grid1.png");
+	position: absolute;
+	top: 350px;
+	left: 200px;
+	width: 494px;
+	height: 490px;
+}
+
+#grid2		{
+	background-image:url("grid2.png");
+	position: absolute;
+	top: 340px;
+	left: 700px;
+	width: 494px;
+	height: 490px;
+}
+
+#title{
+	background-image:url("title.png");
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	width: 425px;
+	height: 103px;	
+}
+
+#enemy{
+	background-image:url("enemy.png");
+	position: absolute;
+	top: 850px;
+	left: 730px;
+	width: 108px;
+	height: 34px;
+			
+}
+
+#your{
+	background-image:url("player.png");
+	position: absolute;
+	top: 850px;
+	left: 200px;
+	width: 105px;
+	height: 36px;
+	
+}
+
+#notebook{
+	background-image:url("bg2.png");
+	position: absolute;
+	width: 1249px;
+	height: 1150px;
+	max-width: 1249px;	
+}
+
+#year{
+	background-image:url("2012.png");
+	position: absolute;
+	top: 1063px;
+	left: 1000px;
+	width: 54px;
+	height: 17px;	
+}
+
+
+
