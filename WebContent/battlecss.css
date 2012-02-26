@@ -4,75 +4,89 @@
 body	{
     background-image:url("bg1.png");
     background-repeat:repeat;
-	background-color: #FFF8DC;
+	background-color: #D2B48C;
 	margin-left:50px;
 	margin-right:50px;
 	
 }
 
+/*Mangijate ruudustikud*/
+
 #grid1		{
 	background-image:url("grid1.png");
 	position: absolute;
-	top: 350px;
-	left: 200px;
-	width: 494px;
-	height: 490px;
+	top: 268px;
+	left: 120px;
+	width: 395px;
+	height: 392px;
 }
 
 #grid2		{
 	background-image:url("grid2.png");
 	position: absolute;
-	top: 340px;
-	left: 700px;
-	width: 494px;
-	height: 490px;
+	top: 260px;
+	left: 550px;
+	width: 395px;
+	height: 392px;
 }
+
+/*Tekstid*/
 
 #title{
 	background-image:url("title.png");
 	position: absolute;
-	top: 200px;
+	top: 170px;
 	left: 100px;
-	width: 425px;
-	height: 103px;	
+	width: 340px;
+	height: 82px;	
 }
 
 #enemy{
 	background-image:url("enemy.png");
 	position: absolute;
-	top: 850px;
-	left: 730px;
-	width: 108px;
-	height: 34px;
+	top: 670px;
+	left: 600px;
+	width: 86px;
+	height: 27px;
 			
 }
 
-#your{
+#player{
 	background-image:url("player.png");
 	position: absolute;
-	top: 850px;
+	top: 670px;
 	left: 200px;
-	width: 105px;
-	height: 36px;
+	width: 84px;
+	height: 29px;
 	
-}
-
-#notebook{
-	background-image:url("bg2.png");
-	position: absolute;
-	width: 1249px;
-	height: 1150px;
-	max-width: 1249px;	
 }
 
 #year{
 	background-image:url("2012.png");
 	position: absolute;
-	top: 1063px;
-	left: 1000px;
-	width: 54px;
-	height: 17px;	
+	top: 850px;
+	left: 800px;
+	width: 43px;
+	height: 14px;	
 }
 
+/*Mangulaua taust*/
 
+#notebook{
+	background-image:url("bg2.png");
+	position: absolute;
+	width: 999px;
+	height: 920px;
+}
+
+/*Mangu laevastik*/
+
+#notes{
+	background-image:url("instr.png");
+	position: absolute;
+	width: 498px;
+	height: 342px;
+	top: 790px;
+	left: 100px;
+}
 
