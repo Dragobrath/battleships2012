@@ -10,6 +10,15 @@ body	{
 	
 }
 
+#start{
+	background-image:url("start.png");
+	position: absolute;
+	width: 226px;
+	height: 134px;
+	top: 630px;
+	left: 680px;
+}
+
 /*Mangijate ruudustikud*/
 
 #grid1		{
@@ -17,17 +26,17 @@ body	{
 	position: absolute;
 	top: 268px;
 	left: 120px;
-	width: 395px;
-	height: 392px;
+	width: 350px;
+	height: 354px;
 }
 
 #grid2		{
 	background-image:url("grid2.png");
 	position: absolute;
-	top: 260px;
+	top: 268px;
 	left: 550px;
-	width: 395px;
-	height: 392px;
+	width: 350px;
+	height: 354px;
 }
 
 /*Tekstid*/
@@ -44,8 +53,8 @@ body	{
 #enemy{
 	background-image:url("enemy.png");
 	position: absolute;
-	top: 670px;
-	left: 600px;
+	top: 630px;
+	left: 570px;
 	width: 86px;
 	height: 27px;
 			
@@ -54,8 +63,8 @@ body	{
 #player{
 	background-image:url("player.png");
 	position: absolute;
-	top: 670px;
-	left: 200px;
+	top: 628px;
+	left: 160px;
 	width: 84px;
 	height: 29px;
 	
@@ -88,5 +97,14 @@ body	{
 	height: 342px;
 	top: 790px;
 	left: 100px;
+}
+
+#pencil{
+	background-image:url("pencil.png");
+	position: absolute;
+	width: 276px;
+	height: 154px;
+	top: 720px;
+	left: 460px;
 }
 
